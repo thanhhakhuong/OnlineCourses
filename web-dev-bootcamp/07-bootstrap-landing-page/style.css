@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #f4c84e;
+  color: #fff;
+}
+
+
+.white-section {
+  background-color: #fff;
+}
+
+.black-section {
+  background-color: #222;
+  padding: 50px;
+}
+
+
+/* Navigation Bar */
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #f4c84e;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  #title .container-fluid {
+  padding: 20px 50px;
+  }
+}
+
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4% 0;
+}
+
+.icon {
+  color: #f4c84e;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #fbdb48;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #f3cd66;
+  padding-bottom: 50px;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.5;
+  color: white;
+  margin: 50px 20% 20px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 80px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+#cta {
+  padding-top: 50px;
+  color: white;
+}
+
+/* Footer Section */
+
+.social-icon {
+  margin: 20px 10px;
+  color: white
+}
+
+footer p {
+  margin-bottom: 0;
+}

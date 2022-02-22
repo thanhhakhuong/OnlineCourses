@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milk Tea Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+          <h1 id="title">Order Now</h1>
+          <p id="description">Thank you for choosing Yummy Fresh Bar!</p>
+        </header>
+  
+        <form action="" id="survey-form">
+          
+          <div class="contact-details">
+            <div class="form-group">
+              <label id="name-label" for="name">
+                Name
+                <input
+                  class="form-control"
+                  type="text"
+                  id="name"
+                  placeholder="Enter Your Name"
+                  required
+                />
+              </label>
+            </div>
+            <div class="form-group">
+              <label id="email-label" for="email">
+                Email
+                <input
+                  class="form-control"
+                  type="email"
+                  id="email"
+                  placeholder="Enter Your Email"
+                  required
+                />
+              </label>
+            </div>
+            <div class="form-group">
+              <label id="number-label" for="number">
+                Age
+                <input
+                  class="form-control"
+                  type="number"
+                  id="number"
+                  min="10"
+                  max="100"
+                  placeholder="Enter Your Age"
+                />
+              </label>
+            </div>
+          </div>
+          
+          <div class="order-details">
+            
+            <div class="form-group drinks">
+              <p>Choose Your Drinks</p>
+              <label>
+                <input
+                  type="checkbox"
+                  class="input-checkbox"
+                  name="drinks"
+                  value="qq"
+                />
+                Ultimate QQ Tea
+              </label>
+              <label>
+                <input
+                  type="checkbox"
+                  class="input-checkbox"
+                  name="drinks"
+                  value="roasted-oolong"
+                />
+                Roasted Oolong Milk Tea
+              </label>
+              <label>
+                <input
+                  type="checkbox"
+                  class="input-checkbox"
+                  name="drinks"
+                  value="jasmin"
+                />
+                Jasmin Milk Tea
+              </label>
+              <label>
+                <input
+                  type="checkbox"
+                  class="input-checkbox"
+                  name="drinks"
+                  value="neptun"
+                />
+                Neptun Sencha Milk Tea
+              </label>
+              <label>
+                <input
+                  type="checkbox"
+                  class="input-checkbox"
+                  name="drinks"
+                  value="matcha"
+                />
+                Matcha Milk Tea
+              </label>
+              <label>
+                <input
+                  type="checkbox"
+                  class="input-checkbox"
+                  name="drinks"
+                  value="taro"
+                />
+                Taro Milk Tea
+              </label>
+            </div>
+  
+            <div class="form-group">
+              <p>Order Type</p>
+              <label for="pick-up">
+                <input
+                  type="radio"
+                  class="input-radio"
+                  name="order-type"
+                  value="pick-up"
+                />
+                Pick Up
+              </label>
+              <label for="Delivery">
+                <input
+                  type="radio"
+                  class="input-radio"
+                  name="order-type"
+                  value="delivery"
+                />
+                Delivery
+              </label>
+            </div>
+  
+            <div class="form-group">
+              <p>Order Time</p>
+              <select class="form-control" name="time" id="dropdown">
+                <option value="asap">As Soon As Possible</option>
+                <option value="09_00">09:00</option>
+                <option value="10_00">10:00</option>
+                <option value="11_00">11:00</option>
+                <option value="12_00">12:00</option>
+                <option value="13_00">13:00</option>
+                <option value="14_00">14:00</option>
+                <option value="15_00">15:00</option>
+                <option value="16_00">16:00</option>
+                <option value="17_00">17:00</option>
+                <option value="18_00">18:00</option>
+                <option value="19_00">19:00</option>
+                <option value="20_00">20:00</option>
+              </select>
+            </div>
+  
+            <div class="form-group">
+              <p>Notes</p>
+              <textarea name="notes" class="input-textarea" cols="30" rows="10"></textarea>
+            </div>
+          </div>
+            <button type="submit" id="submit">Order Now</button>
+          </div>
+  
+        </form>
+      </main>
+</body>
+</html>

@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS Stylesheet-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/cc26428677.js" crossorigin="anonymous"></script>
+
+    <title>Notion</title>
+    </head>
+    <body>
+
+        <section class="colored-section" id="title">
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f4c84e;">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Notion</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+                </nav>
+            <!-- Title -->
+            <!-- .container-fluid, which is width: 100% at all breakpoints -->
+            <!-- read more about bootstrap layout grid -->
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-lg-6">
+                    
+                        <h1 class="big-heading">All-in-One Workspace</h1>
+                        <h3>One tool for your whole team. <br> Write, plan, and get organized.</h3>
+
+                        <!-- buttons from font awesome -->
+                        <button type="button" class="btn btn-dark btn-lg download-button">
+                            <i class="fab fa-apple"></i> Download
+                        </button>
+                        <button type="button" class="btn btn-outline-light btn-lg download-button">
+                            <i class="fab fa-google-play"></i> Download
+                        </button>
+                    
+                    </div>
+
+                    <div class="col-lg-6">
+                        <img class="title-image" src="images/notion-iphone-hero.webp" alt="iphone-mockup">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Features -->
+        <section class="white-section" id="features">
+            <div class="container-fluid">
+
+                <div class="row">
+                    <div class="feature-box col-lg-4">
+                        <i class="icon fas fa-check-circle fa-4x"></i>
+                        <h3 class="feature-title">Product</h3>
+                        <p>Visualize your product roadmap <br>
+                            Write feature specs <br>
+                            Cross-functional collaboration
+                        </p>
+                    </div>
+
+                    <div class="feature-box col-lg-4">
+                        <i class="icon fas fa-pen fa-4x"></i>
+                        <h3 class="feature-title">Design</h3>
+                        <p>
+                            Track every project <br>
+                            Catalog logos, fonts, and assets <br>
+                            Publish a design system
+                        </p>
+                    </div>
+
+                    <div class="feature-box col-lg-4">
+                        <i class="icon fas fa-tools fa-4x"></i>
+                        <h3 class="feature-title">Engineering</h3>
+                        <p>Coordinate releases <br>
+                            Codify processes <br>
+                            Write docs to ship fast
+                        </p>
+                </div>
+
+            </div>
+            
+        </section>
+
+        <!-- Testimonials -->
+        <section class="colored-section" id="testimonials">
+            <div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <p class="testimonial-text">"Notion helps us make sure our processes are all set up, and everything for kicking off a hiring process is available in one place."</p>
+                        <em>Milica Radojevic, People Experience Partner</em>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="testimonial-text">"Notion’s ease of use is one of its hallmarks. It helps you visually navigate content and remember where something is."</p>
+                        <em>Marie Szuts, Head of People Ops</em>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+        </section>
+
+        <!-- Pricing -->
+
+        <section class="white-section" id="pricing">
+
+            <h2 class = "section-heading">Notion for Everyone</h2>
+            <p>Boost your Personal Productivity</p>
+
+            <div class="row">
+
+                <div class="pricing-column col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Personal</h3>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="price-text">$0</h2>
+                            <p>Organizing Your Life</p>
+                            <p>Free for Individuals</p>
+                            <p>Unlimited Pages & Blocks</p>
+                            <button class="btn btn-lg btn-block btn-warning">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-column col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Personal Pro</h3>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="price-text">$5</h2>
+                            <p>Unlimited File Uploads</p>
+                            <p>Unlimited Guests</p>
+                            <p>Version History</p>
+                            <button class="btn btn-lg btn-block btn-dark">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-column col-lg-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Team</h3>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="price-text">$7</h2>
+                            <p>Team Wiki</p>
+                            <p>Project Management</p>
+                            <p>Shared Documents</p>
+                            <button class="btn btn-lg btn-block btn-dark">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Call to Action -->
+        <section class="colored-section" id="cta">
+
+            <div class="container-fluid">
+                <h3 class="big-heading">Try Notion Today.</h3>
+                <h4>Get started for free, then add your whole team.</h4>
+                <button class="download-button btn btn-lg btn-dark" type="button"><i class="fab fa-apple"></i> Download</button>
+                <button class="download-button btn btn-lg btn-light" type="button"><i class="fab fa-google-play"></i> Download</button>
+            </div>
+
+        </section>
+
+         <!-- Footer -->
+
+  
+         <footer class="black-section" id="footer">
+    
+            <div class="container-fluid">
+                <i class="social-icon fab fa-facebook-f"></i>
+                <i class="social-icon fab fa-twitter"></i>
+                <i class="social-icon fab fa-instagram"></i>
+                <i class="social-icon fas fa-envelope"></i>
+                <p>© Copyright Notion</p>
+            </div>
+  
+        </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  </body>
+</html>
